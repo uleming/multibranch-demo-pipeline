@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.7.5'
+}
+
+repositories{
+    mavenCentral()
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+dependencies{
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+

@@ -22,7 +22,7 @@ pipeline {
                     cat README.md
                 '''
             }
-        })
+        }
 
     }
 }
